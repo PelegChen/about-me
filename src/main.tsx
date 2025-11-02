@@ -6,6 +6,7 @@ import App from './App.tsx'
 import Home from './pages/Home.tsx'
 import Resume from './pages/Resume.tsx'
 import ContactInfo from './pages/ContactInfo.tsx'
+import MyProject from './pages/MyProject.tsx'
 
 const router = createHashRouter([
   {
@@ -23,6 +24,10 @@ const router = createHashRouter([
       {
         path: 'contact-info',
         element: <ContactInfo />,
+      },
+      {
+        path: 'my-project',
+        element: <MyProject />,
       },
     ],
   },
